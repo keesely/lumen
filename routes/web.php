@@ -29,3 +29,9 @@ $router->get('/', function () use ($router) {
     ]
   ];
 });
+
+$router->controller('/res', 'ResController', [
+  'regexAlias' => [
+    'uid' => '[0-9a-zA-Z@-_]{4,16}',
+  ]
+]);
