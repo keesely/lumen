@@ -1,12 +1,12 @@
 {
   "name": "keesely/lumen",
-  "description": "The Laravel Lumen Framework.",
+  "description": "The Laravel Lumen Framework. (9.x-change by keesely)",
   "keywords": ["framework", "laravel", "lumen"],
   "license": "MIT",
   "type": "project",
   "require": {
     "php": "^8.0",
-    "laravel/lumen-framework": "^9.0"
+    "laravel/lumen-framework-ext": "dev-9.x-change"
   },
   "require-dev": {
     "fakerphp/faker": "^1.9.1",
@@ -27,20 +27,28 @@
   },
   "scripts": {
     "post-root-package-install": [
-      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
+      "@php -r \"file_exists('.env') || copy('.env.example', '.env');\"",
+      "@php artisan key:generate --ansi"
+    ],
+    "post-create-project-cmd": [
+      "@php artisan key:generate --ansi"
     ]
   },
   "config": {
-    "optimize-autoloader": true,
     "preferred-install": "dist",
+    "optimize-autoloader": true,
     "sort-packages": true
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
-  "repositories" : {
-    "lumen_extra" : {
-      "type" : "path",
-      "url" : "../lumen-framework"
+  "repositories": [
+    {
+      "type": "git",
+      "url": "https://github.com/keesely/lumen-framework.git",
+      "branches-path": "9.x-change",
+      "options": {
+        "symlink": true
+      }
     }
-  }
+  ]
 }

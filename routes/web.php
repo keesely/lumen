@@ -19,14 +19,6 @@ $router->get('/', function () use ($router) {
     'php' => phpversion(),
     'version' => $router->app->version(),
     'server' => request()->server(),
-    'user' => Auth::user(),
-    'cache' => Cache::remember('foo', 10, fn() => mt_rand(100,999)),
-    'config' => [
-      'app' => config('app'),
-      'database' => config('database'),
-      'validation' => config('validation'),
-      'exceptions' => config('exceptions'),
-    ]
   ];
 });
 
