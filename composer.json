@@ -41,6 +41,11 @@
   },
   "minimum-stability": "dev",
   "prefer-stable": true,
+  "extra": {
+    "branch-alias": {
+      "dev-master": "9.x-dev"
+    }
+  },
   "repositories": [
     {
       "type": "git",
