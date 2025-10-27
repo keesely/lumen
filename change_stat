@@ -4,7 +4,6 @@
  app/Models/Sys.php                      |  19 +++++
  bootstrap/app.orignal.php               | 115 +++++++++++++++++++++++++++
  bootstrap/app.php                       | 137 +++++++++-----------------------
- composer.json                           |  95 +++++++++++++---------
  config/app.php                          |  65 +++++++++++++++
  config/database.php                     | 137 ++++++++++++++++++++++++++++++++
  config/exceptions.php                   |  16 ++++

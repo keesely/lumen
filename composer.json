@@ -18,7 +18,7 @@
       "App\\": "app/",
       "Database\\Factories\\": "database/factories/",
       "Database\\Seeders\\": "database/seeders/",
-      "Lw\\": "lumen-wrap/src"
+      "Lx\\": "lumen-wrap/src"
     }
   },
   "autoload-dev": {
