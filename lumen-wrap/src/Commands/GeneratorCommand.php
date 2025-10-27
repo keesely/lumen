@@ -1,5 +1,5 @@
 <?php
-namespace Laravel\Lumen\Commands;
+namespace Lx\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

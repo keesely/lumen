@@ -26,10 +26,17 @@ $app = require __DIR__.'/bootstrap/app.php';
 | executed in this console and the response sent back to a terminal
 | or another output device for the developers. Here goes nothing!
 |
-*/
+ */
+
+$app->tap(function ($app) {
+  return $app->register(
+    Lx\Commands\CommandsServiceProvider::class
+  );
+});
 
 $kernel = $app->make(
     'Illuminate\Contracts\Console\Kernel'
 );
+
 
 exit($kernel->handle(new ArgvInput, new ConsoleOutput));

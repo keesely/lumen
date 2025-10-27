@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Lumen\Commands;
+namespace Lx\Commands;
 
 class ModelMakeCommand extends GeneratorCommand
 {

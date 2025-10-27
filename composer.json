@@ -19,7 +19,10 @@
       "Database\\Factories\\": "database/factories/",
       "Database\\Seeders\\": "database/seeders/",
       "Lx\\": "lumen-wrap/src"
-    }
+    },
+    "files": [
+      "lumen-wrap/src/helpers.php"
+    ]
   },
   "autoload-dev": {
     "psr-4": {

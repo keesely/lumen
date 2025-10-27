@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Lumen\Commands;
+namespace Lx\Commands;
 
 use DB;
 use Illuminate\Console\Command;
 use Illuminate\Database\Schema\Blueprint;
-use Laravel\Lumen\Database\SchemaTable;
+use Lx\Database\SchemaTable;
 
 class MigrateTablesCommand extends Command {
 
