@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\Lumen\Database;
+namespace Lx\Database;
 
 class SchemaException extends \Exception {
 

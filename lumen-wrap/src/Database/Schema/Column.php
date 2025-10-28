@@ -9,7 +9,7 @@
  * @version Column.php 2022.05.30
  * */
 
-namespace Laravel\Lumen\Database\Schema;
+namespace Lx\Database\Schema;
 use Illuminate\Database\Schema\ColumnDefinition;
 
 class Column extends ColumnDefinition {

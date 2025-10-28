@@ -1,5 +1,5 @@
 <?php
-namespace Laravel\Lumen\Database\DBALTypes;
+namespace Lx\Database\DBALTypes;
 
 use Doctrine\DBAL\Types\Type;
 use Doctrine\DBAL\Platforms\AbstractPlatform;

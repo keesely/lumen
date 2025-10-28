@@ -1,11 +1,11 @@
 <?php
 
-namespace Laravel\Lumen\Database\Schema;
+namespace Lx\Database\Schema;
 
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\ColumnDefinition;
-use Laravel\Lumen\Database\SchemaException;
+use Lx\Database\SchemaException;
 use DB;
 use Closure;
 

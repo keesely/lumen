@@ -1,12 +1,13 @@
 <?php
 
-namespace Laravel\Lumen\Database;
+namespace Lx\Database;
+
+use Lx\Database\DBALTypes;
+use Lx\Database\Schema\Table;
 
 use Illuminate\Database\Schema\Blueprint;
 use Doctrine\DBAL\Types\Type as DBALType;
 use Doctrine\DBAL\Types\SimpleArrayType;
-use Laravel\Lumen\Database\DBALTypes;
-use Laravel\Lumen\Database\Schema\Table;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\ColumnDefinition;
